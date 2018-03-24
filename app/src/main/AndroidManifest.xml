@@ -13,9 +13,26 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IntroFollow" />
+        <activity android:name=".CategorySelection" />
+        <activity android:name=".Movies" />
+        <activity android:name=".TvShows" />
+        <activity android:name=".Games" />
+        <activity android:name=".Art" />
+        <activity android:name=".Animals" />
+        <activity android:name=".Books" />
+        <activity android:name=".Music" />
+        <activity android:name=".Sports"></activity>
     </application>
 
 </manifest>

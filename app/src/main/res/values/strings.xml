@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Unite</string>
+    <string name="sports">your desc goes here</string>
+    <string name="movies">your desc goes here</string>
+    <string name="music">your desc goes here</string>
+    <string name="animals">your desc goes here</string>
+    <string name="books">your desc goes here</string>
+    <string name="tv">your desc goes here</string>
+    <string name="art">your desc goes here</string>
+    <string name="games">your desc goes here</string>
 </resources>

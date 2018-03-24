@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/introscreen"
-    tools:context="com.example.jtoco.unite.IntroScreen">
+    android:background="@drawable/followscreen"
+    tools:context="com.example.jtoco.unite.IntroFollow">
 
     <ImageButton
-        android:id="@+id/button"
+        android:id="@+id/followbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
 
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="60dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:layout_marginBottom="207dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
         android:background="@null"
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/button" />
+
 </RelativeLayout>
