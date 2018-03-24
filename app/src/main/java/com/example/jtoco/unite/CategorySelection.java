@@ -46,6 +46,41 @@ public class CategorySelection extends AppCompatActivity {
                 startActivity(musicb);
             }
         });
+        animals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent animalsb=new Intent(CategorySelection.this,Animals.class);
+                startActivity(animalsb);
+            }
+        });
+        books.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent booksb=new Intent(CategorySelection.this,Books.class);
+                startActivity(booksb);
+            }
+        });
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tvb=new Intent(CategorySelection.this,TvShows.class);
+                startActivity(tvb);
+            }
+        });
+        art.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent artb=new Intent(CategorySelection.this,Art.class);
+                startActivity(artb);
+            }
+        });
+        games.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gamesb=new Intent(CategorySelection.this,Games.class);
+                startActivity(gamesb);
+            }
+        });
 
     }
 }
