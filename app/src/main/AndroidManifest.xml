@@ -24,7 +24,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".IntroFollow" />
-        <activity android:name=".CategorySelection"></activity>
+        <activity android:name=".CategorySelection" />
+        <activity android:name=".Movies" />
+        <activity android:name=".TvShows" />
+        <activity android:name=".Games" />
+        <activity android:name=".Art" />
+        <activity android:name=".Animals" />
+        <activity android:name=".Books" />
+        <activity android:name=".Music" />
+        <activity android:name=".Sports"></activity>
     </application>
 
 </manifest>
