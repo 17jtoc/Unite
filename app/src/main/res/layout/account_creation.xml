@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blankscreen"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="20dp"
+    tools:context="com.example.jtoco.unite.AccountCreation">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="First Name (Required)"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstName"
+        android:layout_marginVertical="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Last Name (Optional)"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Email Address (Required)"
+        android:inputType="textEmailAddress"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Password (Required)"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/registerConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="Confirm Password (Required)"
+        android:inputType="textPassword"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/accountCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerConfirmPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginVertical="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/returnToSignInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Back to Login" />
+
+
+</RelativeLayout>

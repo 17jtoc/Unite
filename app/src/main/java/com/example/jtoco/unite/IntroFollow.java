@@ -16,12 +16,12 @@ public class IntroFollow extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.intro_follow);
 
-        b = (ImageButton)findViewById(R.id.followbutton);
+        b = findViewById(R.id.followbutton);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent m = new Intent(IntroFollow.this,CategorySelection.class);
-                startActivity(m);
+                Intent goToCategorySelection = new Intent(IntroFollow.this,CategorySelection.class);
+                startActivity(goToCategorySelection);
             }
         });
     }
